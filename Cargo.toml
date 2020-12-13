@@ -1,0 +1,30 @@
+[package]
+name = "advent-of-code"
+version = "0.1.0"
+authors = ["Tamás Szabó <tamas.szabo@formlabs.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[lib]
+name = "helpers"
+path = "src/lib.rs"
+
+[[bin]]
+name = "day_1"
+path = "src/day_1.rs"
+
+[[bin]]
+name = "day_2"
+path = "src/day_2.rs"
+
+[[bin]]
+name = "day_3"
+path = "src/day_3.rs"
+
+[[bin]]
+name = "day_4"
+path = "src/day_4.rs"
+
